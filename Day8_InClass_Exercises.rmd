@@ -46,6 +46,7 @@ If `b <- list(a=1:10, c="Hello", d="AA")`, write an R expression that will give 
 b <- list(a=1:10, c="Hello", d="AA")
 
 b$a[-2]
+b$a[b$a > 7]
 
 ```
 
