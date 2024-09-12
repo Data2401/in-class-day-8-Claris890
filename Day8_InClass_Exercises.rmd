@@ -2,7 +2,7 @@
 title: "Lists - In Class Exercises"
 author: "Dr. Shoemaker"
 date: "DATA 2401"
-output:nhtml_document
+output: html_document
 
 ---
 
@@ -24,9 +24,9 @@ Make a second list where each element contains all the options for suit, face, a
 
 ```{r}
 cards <- list(
-  suit = c("Spades", "Diamonds", "Something", "Something Else"),
-  face = c(1,2,3,4,5,6,7,8,9),
-  value = c("Queen", "Jack","King")
+  suit = c("Spades", "Diamonds", "Clubs", "Hearts"),
+  face = c("Jack", "Queen", "King"),
+  value = c(1:13)
 )
 
 ```
